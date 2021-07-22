@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="25" parallel="tests" name="Failed suite [Failed suite [Mobiquity]]" guice-stage="DEVELOPMENT">
+  <test thread-count="25" parallel="tests" name="Mobiquity(failed)(failed)">
+    <classes>
+      <class name="apitest.Mobiquity">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="getPosts"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- apitest.Mobiquity -->
+    </classes>
+  </test> <!-- Mobiquity(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Mobiquity]] -->

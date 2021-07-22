@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-22T08:03:39Z" name="Mobiquity" finished-at="2021-07-22T08:03:53Z" duration-ms="14447">
+    <groups>
+    </groups>
+    <test started-at="2021-07-22T08:03:39Z" name="Mobiquity" finished-at="2021-07-22T08:03:53Z" duration-ms="14447">
+      <class name="apitest.Mobiquity">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:38Z" name="beforeSuite" finished-at="2021-07-22T08:03:39Z" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:39Z" name="beforeClass" finished-at="2021-07-22T08:03:39Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="register(java.lang.reflect.Method)[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:39Z" name="register" description="fetch test cases name" finished-at="2021-07-22T08:03:39Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.Mobiquity.getUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="getUser()[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:39Z" name="getUser" finished-at="2021-07-22T08:03:42Z" duration-ms="3385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:42Z" name="captureStatus" description="to display the result after each test method" finished-at="2021-07-22T08:03:43Z" duration-ms="584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getUser status=SUCCESS method=Mobiquity.getUser()[pri:0, instance:apitest.Mobiquity@7530ad9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method is-config="true" signature="register(java.lang.reflect.Method)[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:43Z" name="register" description="fetch test cases name" finished-at="2021-07-22T08:03:43Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.Mobiquity.getUserPosts()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="getUserPosts()[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:43Z" name="getUserPosts" finished-at="2021-07-22T08:03:43Z" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserPosts -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:43Z" name="captureStatus" description="to display the result after each test method" finished-at="2021-07-22T08:03:43Z" duration-ms="79" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getUserPosts status=SUCCESS method=Mobiquity.getUserPosts()[pri:0, instance:apitest.Mobiquity@7530ad9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method signature="validateUserPostComments()[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:43Z" name="validateUserPostComments" finished-at="2021-07-22T08:03:53Z" duration-ms="9579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserPostComments -->
+        <test-method is-config="true" signature="register(java.lang.reflect.Method)[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:43Z" name="register" description="fetch test cases name" finished-at="2021-07-22T08:03:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apitest.Mobiquity.validateUserPostComments()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:apitest.Mobiquity@7530ad9c]" started-at="2021-07-22T08:03:53Z" name="captureStatus" description="to display the result after each test method" finished-at="2021-07-22T08:03:53Z" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUserPostComments status=SUCCESS method=Mobiquity.validateUserPostComments()[pri:0, instance:apitest.Mobiquity@7530ad9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+      </class> <!-- apitest.Mobiquity -->
+    </test> <!-- Mobiquity -->
+  </suite> <!-- Mobiquity -->
+</testng-results>
